@@ -14,5 +14,4 @@ public interface UserDOMapper {
 
     List<UserDO> listUserDO();
 
-
 }
