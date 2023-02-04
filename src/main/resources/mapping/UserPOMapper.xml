@@ -2,10 +2,10 @@
 <!DOCTYPE mapper
         PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
         "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
-<mapper namespace="com.matt.project.base.mapper.UserDOMapper">
+<mapper namespace="com.matt.project.base.mapper.UserPOMapper">
 
-    <!--List<UserDO> listUserDO();-->
-    <select id="listUserDO" resultType="com.matt.project.base.dataobject.UserDO">
+    <!--List<UserPO> listUserPO();-->
+    <select id="listUserPO" resultType="com.matt.project.base.po.UserPO">
         SELECT id,name,age
         FROM user
     </select>

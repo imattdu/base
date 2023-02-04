@@ -2,7 +2,7 @@ package com.matt.project.base.mapper;
 
 
 
-import com.matt.project.base.dataobject.UserDO;
+import com.matt.project.base.po.UserPO;
 
 import java.util.List;
 
@@ -10,8 +10,8 @@ import java.util.List;
  * @author matt
  * @create 2020-12-19 21:28
  */
-public interface UserDOMapper {
+public interface UserPOMapper {
 
-    List<UserDO> listUserDO();
+    List<UserPO> listUserPO();
 
 }

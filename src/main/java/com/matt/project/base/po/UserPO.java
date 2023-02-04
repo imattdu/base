@@ -1,10 +1,10 @@
-package com.matt.project.base.dataobject;
+package com.matt.project.base.po;
 
 /**
  * @author matt
  * @create 2020-12-19 21:33
  */
-public class UserDO {
+public class UserPO {
 
     private Integer id;
     private String name;
